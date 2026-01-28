@@ -1,11 +1,11 @@
 const questionsDB = {
   math: {
     easy: [
-      { q: "2 + 3 = ?", options: ["7","4","6","5"], answer: 2 },
+      { q: "2 + 3 = ?", options: ["7","4","6","5"], answer: 3 },
       { q: "10 − 4 = ?", options: ["5","6","7"], answer: 1 },
-      { q: "3 × 3 = ?", options: ["13","9","12","6"], answer: 4 },
-      { q: "8 ÷ 2 = ?", options: ["8","4","6","2"], answer: 4 },
-      { q: "5 + 5 = ?", options: ["9","20","10","11"], answer: 3 }
+      { q: "3 × 3 = ?", options: ["13","9","12","6"], answer: 1 },
+      { q: "8 ÷ 2 = ?", options: ["8","4","6","2"], answer: 1 },
+      { q: "5 + 5 = ?", options: ["9","20","10","11"], answer: 2 }
     ],
     medium: [
       { q: "15 × 4 = ?", options: ["50","60","70"], answer: 1 },
@@ -47,3 +47,4 @@ const questionsDB = {
     ]
   }
 };
+
